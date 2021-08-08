@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "devcontest"
+version = "0.1.0"
+description = ""
+authors = ["cohama <cohama@live.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.21.1"
+tqdm = "^4.62.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
